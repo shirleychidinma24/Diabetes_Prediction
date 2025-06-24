@@ -4,7 +4,15 @@ This project is a **Diabetes Prediction Web Application** built using a Machine 
 
 The solution consists of:
 - A **Jupyter Notebook** for data exploration, model training & evaluation.
-- ![ml_diabetes jupyter notebook](https://github.com/shirleychidinma24/Diabetes_Prediction/blob/main/Ml_Project.ipynb)
-- A **Streamlit** app for a user-friendly interface to make predictions.
+- [You can see ml_diabetes jupyter notebook](https://github.com/shirleychidinma24/Diabetes_Prediction/blob/main/Ml_Project.ipynb)
+- A data exploration visualization
+- ![Data exploration visualization Screenshot]()
 
+- A **Streamlit** app for a user-friendly interface to make predictions.
 ![App Screenshot](https://github.com/shirleychidinma24/Diabetes_Prediction/blob/main/Diabetes%20prediction%20screenshot.png)
+
+## Key Features
+- Loads a pre-trained Diabetes model and scaler.
+- Scales user inputs and provides real-time diabetes risk predictions.
+- Displays the predicted outcome with confidence level.
+- Interactive interface powered by Streamlit.
