@@ -35,6 +35,7 @@ You can obtain the dataset from [UCI Machine Learning Repository](https://www.ka
 - We can use correlation matrix to pick the most important feature
 - Correlation Matrix measure the linear relationship between the target and the feature
 - Helps visualize which features are strongly correlated with outcome
+- ![Correlation matrix for feature selection](https://github.com/shirleychidinma24/Diabetes_Prediction/blob/main/correlation%20matrix.png)
 
 - ## Model Development
 1. *Preprocessing*: Features were scaled using StandardScaler.
@@ -42,3 +43,34 @@ You can obtain the dataset from [UCI Machine Learning Repository](https://www.ka
 3. *Evaluation*:
    - Accuracy: ~80%
    - Confusion Matrix and metrics were calculated
+  
+## Streamlit Application
+   Run the `diabetes_ui.py` file to launch a local web app:
+```bash
+streamlit run diabetes_ui.py
+```
+You will see:
+Input fields for Glucose, BMI, Age, Pregnancies.
+A "Prediction" button that returns:
+Diabetic or Not Diabetic
+Prediction confidence (probability score)
+
+
+## Installation & Usage
+- git clone https://github.com/your-username/diabetes-prediction-app.git
+- cd diabetes-prediction-app
+- pip install -r requirements.txt
+- streamlit run stremlit_app_2.py
+
+- ## **Project Structure**
+- ├── Ml_Project.ipynb         # Notebook for EDA, Model Training & Evaluation
+- ├── stremlit_app_2.py        # Streamlit UI for making predictions
+- ├── new_diabetes_model.pkl    # Saved trained model
+- ├── new_scaler.pkl            # Saved scaler for preprocessing
+- ├── requirements.txt          # Dependencies
+- └── README.md   
+
+## Contact
+Feel free to reach out:
+- GitHub: [https://github.com/Owaboye](https://github.com/Owaboye/diabetes_detection_ml_appp/tree/main)
+- LinkedIn: [Owaboye OLuwasanjo Ezekiel](https://www.linkedin.com/in/yourprofile/)
