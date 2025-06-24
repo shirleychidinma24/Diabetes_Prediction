@@ -57,14 +57,14 @@ Prediction confidence (probability score)
 
 
 ## Installation & Usage
-- git clone https://github.com/your-username/diabetes-prediction-app.git
+- git clone https://github.com/shirleychidinma24/Diabetes-Prediction-app.git
 - cd diabetes-prediction-app
 - pip install -r requirements.txt
-- streamlit run stremlit_app_2.py
+- streamlit run diabetes_ui.py
 
 - ## **Project Structure**
 - ├── Ml_Project.ipynb         # Notebook for EDA, Model Training & Evaluation
-- ├── stremlit_app_2.py        # Streamlit UI for making predictions
+- ├── diabetes_ui.py        # Streamlit UI for making predictions
 - ├── new_diabetes_model.pkl    # Saved trained model
 - ├── new_scaler.pkl            # Saved scaler for preprocessing
 - ├── requirements.txt          # Dependencies
@@ -72,5 +72,5 @@ Prediction confidence (probability score)
 
 ## Contact
 Feel free to reach out:
-- GitHub: [https://github.com/Owaboye](https://github.com/Owaboye/diabetes_detection_ml_appp/tree/main)
+- GitHub: [https://github.com/shirleychidinma24](https://github.com/shirleychidinma24/Diabetes_Prediction/tree/main)
 - LinkedIn: [Owaboye OLuwasanjo Ezekiel](https://www.linkedin.com/in/yourprofile/)
