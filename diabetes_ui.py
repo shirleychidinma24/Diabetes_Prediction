@@ -13,7 +13,7 @@ st.title('Diabetes Prediction')
 #['Glucose','BMI','Age',Pregnacies']
 
 glucose= st.number_input("Glucose", 0)
-bmi = st.number_input("BMI", 0)
+bmi = st.number_input("BMI", min_value=0.0, step=0.1, format="%.1f")
 age =st.number_input("Age", 0)
 pregnancies = st.number_input("Pregnancies", 0)
 
