@@ -16,3 +16,29 @@ The solution consists of:
 - Scales user inputs and provides real-time diabetes risk predictions.
 - Displays the predicted outcome with confidence level.
 - Interactive interface powered by Streamlit.
+
+- ## Dataset
+- This project is trained on the **Pima Indians Diabetes Dataset** containing features such as:
+- Glucose
+- BMI
+- Age
+- Pregnancies
+- Insulin
+- SkinThickness
+- DiabetesPredigreeFunction
+- BloodPressure
+
+You can obtain the dataset from [UCI Machine Learning Repository](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database?select=diabetes.csv)
+
+
+## Feature Selection Technique
+- We can use correlation matrix to pick the most important feature
+- Correlation Matrix measure the linear relationship between the target and the feature
+- Helps visualize which features are strongly correlated with outcome
+
+- ## Model Development
+1. *Preprocessing*: Features were scaled using StandardScaler.
+2. *Model Training*: A LogisticRegression model was trained and saved with joblib.
+3. *Evaluation*:
+   - Accuracy: ~80%
+   - Confusion Matrix and metrics were calculated
