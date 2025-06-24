@@ -6,7 +6,7 @@ The solution consists of:
 - A **Jupyter Notebook** for data exploration, model training & evaluation.
 - [You can see ml_diabetes jupyter notebook](https://github.com/shirleychidinma24/Diabetes_Prediction/blob/main/Ml_Project.ipynb)
 - A data exploration visualization
-- ![Data exploration visualization Screenshot]()
+- ![Data exploration visualization Screenshot](https://github.com/shirleychidinma24/Diabetes_Prediction/blob/main/Data%20exploration%20visualization.png)
 
 - A **Streamlit** app for a user-friendly interface to make predictions.
 ![App Screenshot](https://github.com/shirleychidinma24/Diabetes_Prediction/blob/main/Diabetes%20prediction%20screenshot.png)
