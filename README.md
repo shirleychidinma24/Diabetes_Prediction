@@ -6,4 +6,4 @@ The solution consists of:
 - A **Jupyter Notebook** for data exploration, model training & evaluation.
 - A **Streamlit** app for a user-friendly interface to make predictions.
 
-![App Screenshot](diabetic_prediction_app.PNG)
+![App Screenshot](https://github.com/shirleychidinma24/Diabetes_Prediction/blob/main/Diabetes%20prediction%20screenshot.png)
